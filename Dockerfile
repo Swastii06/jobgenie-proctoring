@@ -1,10 +1,11 @@
 FROM python:3.11-slim
 
-# Install system dependencies
+# Install system dependencies including cmake for dlib
 RUN apt-get update && apt-get install -y \
     libpq-dev \
     gcc \
     g++ \
+    cmake \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
