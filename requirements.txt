@@ -41,7 +41,7 @@ lxml==5.3.0
 MarkupSafe==3.0.2
 matplotlib==3.10.0
 mediapipe==0.10.20
-ml_dtyles==0.5.1
+ml_dtypes==0.5.1
 mpmath==1.3.0
 msgpack==1.1.0
 networkx==3.4.2
